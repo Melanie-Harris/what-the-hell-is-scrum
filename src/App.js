@@ -4,6 +4,7 @@ import Footer from "./components/Footer"
 import Header from "./components/Header";
 import AvatarSection from "./components/AvatarSection";
 import Resources from "./components/Resources";
+import Summary from "./components/Summary";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       
       <AvatarSection/>
+      <Summary/>
       <Resources/>
       <Footer/>
     </div>
