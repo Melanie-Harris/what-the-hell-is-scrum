@@ -3,6 +3,7 @@ import React from "react";
 import Footer from "./components/Footer"
 import Header from "./components/Header";
 import AvatarSection from "./components/AvatarSection";
+import Resources from "./components/Resources";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       
       <AvatarSection/>
+      <Resources/>
       <Footer/>
     </div>
   );
