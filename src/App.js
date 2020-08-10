@@ -8,9 +8,8 @@ import Summary from "./components/Summary";
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="">
       <Header/>
-      
       <AvatarSection/>
       <Summary/>
       <Resources/>

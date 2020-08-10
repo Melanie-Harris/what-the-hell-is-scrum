@@ -3,105 +3,125 @@ import { Row, Col } from "react-bootstrap";
 
 export default function AvatarSection() {
   return (
-    <section>
+    <section className="container-fluid p-5 a-section-main">
       <Row>
         <Col style={{ textAlign: "end" }}>
           <img src="https://img.icons8.com/bubbles/450/000000/businesswoman.png" />
         </Col>
         <Col>
-          chatbox text sample (Hi, I'm Melanie, A certified Scrum Master and Web
+          
+
+          <div class="chat-bubble tri-right left-in">
+            <div class="chat-text">
+              <p>
+              chatbox text sample (Hi, I'm Melanie, A certified Scrum Master and Web
           Developer and this is my scrum team. Below you'll find lessons to help
           guide you in your path to learning scrum and agile methodologies.
           Please click on a team member below to learn more about the topic.
           Happy Scrumming!) <br />
           Have questions for me? I can be reached at the following:(social media
           links here)
+              </p>
+            </div>
+          </div>
+
+
         </Col>
       </Row>
       <Row>
-        <Col sm={6} style={{ border: "2px solid red", cursor:"help" }}>
-          <Row>
+        <Col sm={6} className="avatar-box0">
+          <Row >
             <img src="https://img.icons8.com/bubbles/200/000000/businesswoman.png" />
-            Name: Melanie <br/>
-            Role: Scrum Master <br />
-            Topics covered:text sample
+            <span className="avatar-bio-text pt-3">Melanie<br/>
+           <span className="bold "> Scrum Master</span>  <br />
+            <button className="button-style2" type="button">Responsibilities of a Scrum Master</button>
+            
+            </span>
           </Row>
         </Col>
-        <Col sm={6} style={{ border: "2px solid red", cursor:"help" }}>
-            <Row>
-                <img src="https://img.icons8.com/bubbles/200/000000/long-brown-curly-hair-lady-with-glasses.png" />
-                Name: Magdalena<br/>
-            Role: Project Owner <br />
-            Topics covered:text sample
-            </Row>
-          
+        <Col sm={6} className="avatar-box0">
+          <Row>
+            <img src="https://img.icons8.com/bubbles/200/000000/long-brown-curly-hair-lady-with-glasses.png" />
+            <span className="avatar-bio-text pt-3">
+              Magdalena<br/>
+            <span className="bold"> Project Owner</span>
+            <br />
+            <button className="button-style2" type="button">Responsibilities of a Product Owner</button>
+            
+            </span>
+          </Row>
         </Col>
       </Row>
       <Row>
-        <Col style={{ border: "2px solid red", cursor:"help" }}>
-        <Row> 
+        <Col className="avatar-box" sm={3}>
+          <Row>
             <img src="https://img.icons8.com/bubbles/200/000000/brown-long-curly-hair-lady.png" />
-            Name: Areona<br/>
-            Role: Scrum Team<br />
-            Topics covered:text sample
-            </Row>
-         
+            <span>Areona<br/>
+            <span className="bold">Scrum Team Member</span><br/>
+            <button className="button-style2" type="button">Scrum Team Defined</button>
+            </span>
+          </Row>
         </Col>
-        <Col style={{ border: "2px solid red", cursor:"help" }}>
-        <Row>
+        <Col sm={3} className="avatar-box">
+          <Row>
             <img src="https://img.icons8.com/bubbles/200/000000/long-brunette-hair-lady.png" />
-            Name: Victoria <br/>
-            Role: Scrum Team <br />
-            Topics covered:text sample
-            </Row>
-          
+            <span>Victoria<br/>
+            <span className="bold">Scrum Team Member<br/></span>
+            <button className="button-style2" type="button">Advice For Team Formation</button>
+            
+            </span>
+          </Row>
         </Col>
-        <Col style={{ border: "2px solid red", cursor:"help" }}>
-        <Row>
+        <Col sm={3} className="avatar-box">
+          <Row>
             <img src="https://img.icons8.com/bubbles/200/000000/brown-pigtail-hair-lady.png" />
-            Name: Adya<br/>
-            Role: Scrum Team <br />
-            Topics covered:text sample
-            </Row>
-          
+            <span>Adya<br />
+              <span className="bold">Scrum Team Member</span><br/>
+              <button className="button-style2" type="button">Important Scrum Definitions</button>
+            </span>
+          </Row>
         </Col>
-        <Col style={{ border: "2px solid red", cursor:"help" }}>
-        <Row>
+        <Col sm={3} className="avatar-box">
+          <Row>
             <img src="https://img.icons8.com/bubbles/200/000000/business-man-with-beard.png" />
-            Name: Robert <br/>
-            Role: Scrum Team <br />
-            Topics covered:text sample
-            </Row>
-          
+           <span>Robert<br />
+           <span className="bold"> Scrum Team Member</span>  <br/>
+            <button className="button-style2" type="button">Interactive Scrum Games</button>
+            </span>
+          </Row>
         </Col>
       </Row>
       <Row>
-        <Col style={{ border: "2px solid red", cursor:"help" }}>
-        <Row>
+        <Col sm={4} className="avatar-box2">
+          <Row>
             <img src="https://img.icons8.com/bubbles/200/000000/brown-short-curly-hair-lady.png" />
-            Name: Wimmie<br/>
-            Role: CEO (maybe and firm)<br />
-            Topics covered:text sample
-            </Row>
-          
+            <span>Wimmie<br />
+            <span className="bold"> CEO (maybe and firm)</span>
+            <br />
+            <button className="button-style2" type="button">Topic covered here</button>
+            
+            </span>
+          </Row>
         </Col>
-        <Col style={{ border: "2px solid red", cursor:"help" }}>
-        <Row>
+        <Col sm={4} className="avatar-box2">
+          <Row>
             <img src="https://img.icons8.com/bubbles/200/000000/blond-short-hair-lady-with-blue-glasses.png" />
-            Name: Haili<br/>
-            Role: Firm or external sources<br />
-            Topics covered:text sample
-            </Row>
-          
+            <span>Haili<br />
+            <span className="bold">Firm or external sources </span>
+            <br />
+            <button className="button-style2" type="button">Topic covered here</button>
+            </span>
+          </Row>
         </Col>
-        <Col style={{ border: "2px solid red", cursor:"help" }}>
-        <Row>
+        <Col sm={4} className="avatar-box2">
+          <Row>
             <img src="https://img.icons8.com/bubbles/200/000000/business-man-in-blue-jacket.png" />
-            Name: Jason <br/>
-            Role: Client <br />
-            Topics covered:text sample
-            </Row>
-          
+            <span>Jason<br />
+            <span className="bold"> Client</span> 
+            <br />
+            <button className="button-style2" type="button">Topic covered here</button>
+            </span>
+          </Row>
         </Col>
       </Row>
     </section>

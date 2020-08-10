@@ -3,24 +3,22 @@ import { Row, Col } from "react-bootstrap";
 
 export default function Resources() {
   return (
-    <section>
-      <Row>
-        <Col md={3} >
-          resource tabs buttons:
-          <Row style={{ textAlign: "center", border: "2px solid green" }}>blogs, </Row>
-          <Row style={{ textAlign: "center", border: "2px solid green" }}>scrum guide,</Row>
-          <Row style={{ textAlign: "center", border: "2px solid green" }}>scrum manifesto</Row>
+    <section className="container resource-section">
+      <Row >
+        <Col className="button-margin" md={3} >
+          <Row ><button className="button-style" type="button">Scrum Videos</button> </Row>
+          <Row ><button className="button-style" type="button">Scrum Blog</button> </Row>
+          <Row ><button className="button-style" type="button">Scrum Guide</button></Row>
         </Col>
-        <Col md={6} style={{ textAlign: "center", border: "2px solid green" }}>
+        <Col className="avatar-resource" md={6}>
           <h1>Additional Resources</h1>
-          <img src="https://img.icons8.com/bubbles/450/000000/crowd.png" />
+          <img src="https://img.icons8.com/bubbles/550/000000/crowd.png" />
           {/* <img src="https://img.icons8.com/bubbles/50/000000/crowd-2men-2women.png"/> */}
         </Col>
-        <Col md={3}>
-          resource tabs buttons:
-          <Row style={{ textAlign: "center", border: "2px solid green" }}>get certified,</Row>
-          <Row style={{ textAlign: "center", border: "2px solid green" }}>other agile trainings,</Row>
-          <Row style={{ textAlign: "center", border: "2px solid green" }}>scrum videos</Row>
+        <Col className="button-margin" md={3}>
+          <Row > <button className="button-style" type="button">Scrum Q/A</button></Row>
+          <Row > <button className="button-style" type="button">Get Certified</button></Row>
+          <Row > <button className="button-style" type="button">Other Agile Trainings</button></Row>
         </Col>
       </Row>
     </section>

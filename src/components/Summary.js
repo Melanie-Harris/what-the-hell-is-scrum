@@ -3,27 +3,51 @@ import { Row, Col } from "react-bootstrap";
 
 export default function Summary() {
   return (
-    <section style={{border:"1px solid pink", padding:"20px 0px", textAlign:"center"}}>
-      <span >Most Important To Remember</span>
-      <Row >
-          <Col>
-          <img src="https://img.icons8.com/ios/50/000000/parallel-tasks.png"/><br/>
-          Team Structure<br/>
-          hgkgkhgk
-          </Col>
-          <Col>
-          {/* <img src="https://img.icons8.com/ios/50/000000/easy-to-find.png"/> */}
-          <img src="https://img.icons8.com/wired/64/000000/waypoint-map.png"/><br/>
-          Scrum Timeline<br/>
-          hgkgkhgk
-          </Col>
-          <Col>
-          <img src="https://img.icons8.com/dotty/80/000000/expand-influence.png"/> <br/>
-          Impact, Why Scrum?<br/>
-          hgkgkhgk
-          </Col>
+    <section className=" summary-container">
+      <h1>Most Important To Remember <img src="https://img.icons8.com/bubbles/60/000000/businesswoman.png" /></h1>
+      <Row>
+        <Col sm={4} className="summary-col">
+          <i class="fas fa-sitemap"></i>
+          {/* <img className="icon-attributes" src="https://img.icons8.com/ios/80/000000/parallel-tasks.png"/><br/> */}
+          <h2>Team Structure</h2>
+          <br />
+          <span className="summary-sub-text"> 
+          Roles <br/>
+          Team Size <br/>
+          Team Formation<br/>
+          Do's and Dont's
+
+          </span>
+        </Col>
+        <Col  sm={4} className="summary-col">
+          <i class="fas fa-stream"></i>
+          {/* <img className="icon-attributes"  src="https://img.icons8.com/wired/94/000000/waypoint-map.png"/><br/> */}
+          <h2>Scrum Timeline</h2>
+          <br />
+          <span className="summary-sub-text">
+          *Product Backlog<br/>  
+          Sprint Planning Meeting<br/>
+          *Sprint Backlog <br/>
+          Daily Scrum<br/>
+          Sprint Review <br/>
+          Sprint Retrospective<br/>
+
+          </span>
+        </Col>
+        <Col  sm={4} className="summary-col">
+          {/* <i class="fas fa-user-check"></i> */}
+          <i class="fas fa-chalkboard-teacher"></i>
+          {/* <img className="icon-attributes"  src="https://img.icons8.com/dotty/100/000000/expand-influence.png"/> <br/> */}
+          <h2>Impact, Why Scrum?</h2>
+          <br/>
+          <span className="summary-sub-text">
+          Scrum Defined<br />
+          Agile vs Waterfall<br />
+          Benefits of Scrum<br />
+          Who Uses Scrum<br />
+          </span>
+        </Col>
       </Row>
-     
     </section>
   );
 }
