@@ -19,37 +19,103 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.scrum-font{
+  font-family: 'Luckiest Guy', cursive;
+  
+   /* font-family: 'Rock Salt', cursive; */
+    /* font-family: 'Sacramento', cursive; */ 
+    /* Use sacramento for my sig */
+  }
 
-button{
+/* button{
   text-align: center;
   width: 100%;
   padding: 5% 0%;
-  /* margin-top: 2.4rem; */
+  margin-top: 2.4rem;
   font-size: 1.5rem;
-}
+} */
 .bold{
   font-weight: 700;
 }
 .pt-3{
 margin-top: 3rem;
 }
-/* =================================Header */
-.scrum-font{
-font-family: 'Luckiest Guy', cursive;
+/*!====================================Manual Overrides  */
+.w-70{
+  width:70% !important;
+}
+/*====================================Nav  */
 
- /* font-family: 'Rock Salt', cursive; */
-  /* font-family: 'Sacramento', cursive; */ 
-  /* Use sacramento for my sig */
+  .notice{
+    background-color:white;
+    z-index: 9999999 !important;
+    padding-top: 1%;
+    padding-bottom: .5%;
+    position: fixed;
+    width: 100%;
+    /* text-align: center;
+    float: right; */
+    /* margin-top: 100px; */
+  }
+  .notice span{
+    text-align: center !important;
+    
+  }
+  .nav{
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 1rem;
+  }
+  .nav a{
+    background-color: #f2f2f2;
+    text-decoration: none;
+    color:black;
+    margin-right: 3%;
+    /* text-align: end !important; */
+  }
+
+
+/*=============================== Hero */
+.hero{
+  margin-top: 5rem;
+  width: 90%;
 }
-.animate__rubberBand{
-  animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2.5s; /* don't forget to set a duration! */
+
+.button-style{
+  text-align: center;
+  width: 30% !important;
+  padding: 3% 4%;
+  font-size: .9rem;
+  /* background-color: transparent; */
+  background-color: white !important;
+  border: .19rem solid #d6954b;
+  text-decoration: none !important;
+  border-radius: 1.5rem;
+  box-shadow: .625rem .625rem #888888;
+  /* box-shadow: .7rem .7rem #888888; */
+  color: rgb(12, 12, 12);
+  margin-bottom: 4rem;
+  margin-top: -.8rem !important;
 }
-.header{
+.right{
+  margin-left: 4.5%;
   /* text-align: center; */
-  /* justify-content: center; */
-  padding: 2rem 0rem;
-  background-color: rgb(232, 232, 232);
+  width: 100%;
+}
+.button-style:active {
+  box-shadow: 0 .3rem #666;
+  transform: translateY(.2rem);
+}
+.button-style a{
+  background-color: transparent;
+  color: rgb(12, 12, 12);
+  padding:.55rem;
+  text-decoration: none !important; 
+}
+.button-style:hover,.button-style:visited,.button-style:link{
+  text-decoration: none !important;
+  color: black;
+  /* font-size: 15px; */
 }
 .hero-text{
   font-size: 5.5rem;
@@ -74,7 +140,7 @@ font-family: 'Luckiest Guy', cursive;
 }
 
 .hero-img{
-  height: 17rem;
+  height: 6rem;
   padding-left: 5%;
   /* color:white */
 }
@@ -92,6 +158,7 @@ font-family: 'Luckiest Guy', cursive;
   padding: 1rem;
 	text-align: left;
   line-height: 1.5rem;
+  /* text-align: center; */
 }
 .tri-right.left-in:after{
 	content: ' ';
@@ -100,10 +167,42 @@ font-family: 'Luckiest Guy', cursive;
 	height: 0;
   left: -1.6rem;
 	right: auto;
-  top: 8rem;
+  top: 5rem;
 	bottom: auto;
   border: .8rem solid;
   border-color: #fbcd59 #fbcd59 transparent transparent;
+}
+/*=============================== section */
+
+.section-container{
+  width:100%;
+  /* margin-top: 3rem; */
+}
+.section{
+  background-color:#f2f2f2 ;
+  text-align: center;
+  padding-top: 4rem;
+  color:#403d56;
+}
+.section2{
+  background-color:#f2f2f2 ;
+  text-align: center;
+  padding-top: 7rem;
+  color:#403d56;
+}
+.section-text{
+  color:#d6954b;
+  font-size: 2.5rem;
+}
+.section-margin-top{
+  margin-top: 8rem;
+}
+.section-margin-bottom{
+  margin-bottom: 8rem;
+}
+.section-img{
+  margin-left:13% !important; 
+  padding: 2rem 0rem;
 }
 /*=============================== avatar section */
 .a-section-main{
@@ -172,6 +271,7 @@ text-align: center;
    text-align:center;
    background-color: #f6f5f3;
    max-width: 99%;
+   /* border-radius: 6%; */
 }
 .summary-col{
   margin-top: 2.5rem;
@@ -192,22 +292,35 @@ text-align: center;
 /*=============================== resource section */
 .resource-section{
  margin-top: 2rem;
+ width: 88%;
+}
+.resource-content{
+margin-top:3rem;
+/* border: 1px solid red */
+}
+.button-margin{
+  margin-top: 4rem;
+  /* padding-top: -3rem; */
+}
+.resource-headings{
+  font-size: 3rem;
+  background-color: #1b2e46;
+  width: 100%;
+  color:white;
+  text-align: center;
 }
 .avatar-resource{
   text-align: center;
+}
 
-}
-.button-margin{
-  margin-top: 9rem;
-}
-.button-style{
+.button-style3{
   text-align: center;
   width: 100%;
   padding: 5% 0%;
   margin-top: 2.4rem;
   font-size: 1.5rem;
 
-  background-color: transparent;
+  background-color: white;
   border: .19rem solid #d6954b;
   text-decoration: none !important;
   border-radius: 1.5rem;
@@ -216,17 +329,17 @@ text-align: center;
   color: rgb(12, 12, 12);
 }
 
-.button-style:active {
+.button-style3:active {
   box-shadow: 0 .3rem #666;
   transform: translateY(.2rem);
 }
-.button-style a{
+.button-style3 a{
   background-color: transparent;
   color: rgb(12, 12, 12);
   padding:.55rem;
   text-decoration: none !important; 
 }
-.button-style:hover,.button-style:visited,.button-style:link{
+.button-style3:hover,.button-style3:visited,.button-style3:link{
   text-decoration: none !important;
   color: black;
   /* font-size: 15px; */
@@ -245,3 +358,59 @@ text-align: center;
     transform: rotate(360deg);
   }
 } */
+/* .slider-img1{
+  height: 100%;
+}
+.slider-img2{
+  width: 50rem !important;
+}
+.slider-img3{
+  height: 100%;
+} */
+/* .carousel-control-next-icon{
+  display: none;
+} */
+
+/* .animate__rubberBand{
+  animation: rubberBand; 
+  referring directly to the animation's @keyframe declaration
+  animation-duration: 2.5s; 
+  don't forget to set a duration!
+} */
+/* .header{
+  text-align: center;
+  justify-content: center;
+  padding: 2rem 0rem;
+  background-color: rgb(232, 232, 232);
+  background-color: #aee9ff;
+} */
+/* #myTopnav{
+  position: fixed;
+  width:100%;
+  z-index:999;
+  } */
+  /* Add a black background color to the top navigation */
+  /* .topnav {
+    background-color: rgb(218, 218, 218);
+    background-color: black;
+    overflow: hidden;
+    margin-top: -1.5rem;
+   
+    position: absolute;
+  } */
+  
+  /* Style the links inside the navigation bar */
+  /* .topnav a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+   color:black;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right:20px;
+    margin-top: 200px;
+    position: absolute;
+    z-index: 99;
+  } */
