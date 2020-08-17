@@ -3,3 +3,5 @@
 /* body { font-size:62.5%; } =10px */
 /* h1 { font-size: 2.4em; } =24px */
 /* p { font-size: 1.4em; } =14px */
+
+single page applications just swap out components for other depending on where the person navigates within the site

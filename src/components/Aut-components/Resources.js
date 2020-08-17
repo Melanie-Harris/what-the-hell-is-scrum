@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import scrum1 from "../../img/product_tour.svg";
+import {Link} from "react-router-dom"
 
 export default function Resources() {
   return (
@@ -8,7 +9,10 @@ export default function Resources() {
       <div className="resource-headings ">Scrum</div>
       <Row className="resource-content">
         <Col className="button-margin" md={2} >
-          <Row ><button className="button-style3 button-top" type="button">Scrum Videos</button> </Row>
+          <Row >
+            <button className="button-style3 button-top" type="button">Scrum Videos</button> 
+            
+            </Row>
           <Row ><button className="button-style3" type="button">Scrum Blog</button> </Row>
           <Row ><button className="button-style3" type="button">Scrum Guide</button></Row>
         </Col>
