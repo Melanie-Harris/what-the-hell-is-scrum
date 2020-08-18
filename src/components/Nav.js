@@ -1,16 +1,22 @@
-import React from "react";
+import React, {useState} from "react";
 // import { Row, Col } from "react-bootstrap";
 import {Link} from "react-router-dom"
 
+
 export default function Nav() {
+  // const [isLoggedIn,setIsLoggedIn] = useState(false)
+  // let text = isLoggedIn ? "Log out" : "Login / Register"
+
+  // function change(){
+  //   setIsLoggedIn(prevState => !prevState)
+  // }
   return (
     <div>
     <nav className="container-fluid nav">
-      <Link to="/LoginReg" > <i class="fas fa-sign-in-alt"> Login / Register</i> </Link>
+  <Link to="/LoginReg" > <i class="fas fa-sign-in-alt"> Login / Register</i> </Link>
       <Link to="/">Home</Link>
       <Link to="/">Contact</Link>
 
-      
       {/* <h1 style={{textAlign:"center", marginBottom:"-3rem", marginLeft:"30rem"}}>Scrum</h1> */}
     </nav>
     </div>

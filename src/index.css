@@ -6,6 +6,7 @@ html {
   font-size: 16px;
 }
 
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -74,6 +75,7 @@ margin-top: 3rem;
     /* text-align: end !important; */
   }
 
+  .icon-size{font-size: 2rem; margin-top: -.6rem; text-align: end;}
 
 /*=============================== Hero */
 .hero{
@@ -204,7 +206,7 @@ margin-top: 3rem;
   margin-left:13% !important; 
   padding: 2rem 0rem;
 }
-/*=============================== avatar section */
+/*=============================== Lesson Plan section */
 .a-section-main{
 text-align: center;
 }
@@ -212,14 +214,14 @@ text-align: center;
   border: 2px solid grey;
    cursor: help;
    text-align:center;
-   padding:0rem 8.5% 1rem;
+   padding:1.5rem 8.5% ;
    
  }
 .avatar-box{
  border: 2px solid grey;
   cursor: help;
   text-align:center;
-  padding:0rem 6% 1rem;
+  padding:1.5rem 6% ;
 }
 /* .avatar-box b{
  
@@ -230,7 +232,7 @@ text-align: center;
   border: 2px solid grey;
    cursor: help;
    text-align:center;
-   padding:0rem 9.5% 1rem;
+   padding:1.5rem 25.5%;
  }
  .avatar-bio-text{
    /* margin-top: 4rem; */
@@ -289,22 +291,23 @@ text-align: center;
 /* img .icon-attributes{
   color: red;
 } */
-/*=============================== resource section */
+/*=============================== AuthHero section */
 .resource-section{
- margin-top: 2rem;
+ margin-top: -4rem;
  width: 88%;
 }
 .resource-content{
-margin-top:3rem;
+/* margin-top:3rem; */
 /* border: 1px solid red */
 }
-.button-margin{
-  margin-top: 4rem;
+.text-margin{
+  margin-top: 15rem;
   /* padding-top: -3rem; */
 }
 .resource-headings{
   font-size: 3rem;
-  background-color: #1b2e46;
+  /* background-color: #1b2e46; */
+  background-color: black;
   width: 100%;
   color:white;
   text-align: center;
