@@ -16,7 +16,7 @@ export default function AuthNav() {
           <i class="fas fa-sign-in-alt"> Logout</i>
         </Link>
         {/* <Link to="/">Home</Link> */}
-        <Link to="/">Contact</Link>
+        {/* <Link to="/">Contact</Link> */}
         <Link className="icon-size"><i class="fas fa-user-circle"></i></Link>
 
         {/* <h1 style={{textAlign:"center", marginBottom:"-3rem", marginLeft:"30rem"}}>Scrum</h1> */}

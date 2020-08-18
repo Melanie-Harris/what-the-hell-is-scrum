@@ -11,10 +11,12 @@ export default function Nav() {
   //   setIsLoggedIn(prevState => !prevState)
   // }
   return (
-    <div>
+    <div> 
+      <Link to="/"><div className="resource-headings ">Scrum</div></Link>
     <nav className="container-fluid nav">
+   
   <Link to="/LoginReg" > <i class="fas fa-sign-in-alt"> Login / Register</i> </Link>
-      <Link to="/">Home</Link>
+      {/* <Link >Home</Link> */}
       <Link to="/">Contact</Link>
 
       {/* <h1 style={{textAlign:"center", marginBottom:"-3rem", marginLeft:"30rem"}}>Scrum</h1> */}
