@@ -17,7 +17,8 @@ export default function Nav() {
    
   <Link to="/LoginReg" > <i class="fas fa-sign-in-alt"> Login / Register</i> </Link>
       {/* <Link >Home</Link> */}
-      <Link to="/">Contact</Link>
+     
+      <Link to="/"><i class="fas fa-paper-plane"> Contact</i></Link>
 
       {/* <h1 style={{textAlign:"center", marginBottom:"-3rem", marginLeft:"30rem"}}>Scrum</h1> */}
     </nav>
