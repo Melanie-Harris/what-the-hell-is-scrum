@@ -9,11 +9,6 @@ export default function VocabDevelopment() {
     <div className="" key={data.id}>
       {/* {data.img} */}
 
-
-
-
-
-
       <div className="accordion" id="accordionExample">
         <div className="card">
           <div className="card-header" id="headingOne">

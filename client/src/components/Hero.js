@@ -17,16 +17,16 @@ export default function Hero() {
           />
         </Col>
         <Col>
-          <Row className="right" sm={12}>
+          <Row className="right" sm={11}>
             
-            <button className="button-style" type="button">
-              <Link to="/LoginReg">Scrum Training</Link>
+            <button className="button-style landing-hero-text" type="button">
+              <Link to="/LoginReg"><span className="landing-hero-text">Scrum Training</span></Link>
             </button>
             <button className="button-style" type="button">
-            <Link to="/LoginReg">Scrum Videos</Link>
+            <Link to="/LoginReg"><span className="landing-hero-text">Scrum Videos</span></Link>
             </button>
             <button className="button-style" type="button">
-              <Link to="/LoginReg">Scrum Games</Link>
+              <Link to="/LoginReg"><span className="landing-hero-text">Scrum Games</span></Link>
             </button>
           </Row>
         </Col>

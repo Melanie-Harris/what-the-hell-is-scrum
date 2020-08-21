@@ -9,15 +9,15 @@ export default function Section2() {
       <Col className="section2" sm={6}>
             <span className="section-text">Scrum Team</span>
             <br/>
-            <span>Scrum Team Roles</span>
+            <span className="section-sub-text">Scrum Team Roles</span>
             <br/>
-            <span>Scrum Team Development</span>
+            <span className="section-sub-text">Scrum Team Development</span>
             <br/>
-            <span>Sprint Backlog Explained</span>
+            <span className="section-sub-text">Sprint Backlog Explained</span>
             <br/>
-            <span>Scrum Team Advice</span>
+            <span className="section-sub-text">Scrum Team Advice</span>
             <br/>
-            <span>More</span>
+            <span className="section-sub-text">More</span>
             {/* <br/>
             <span>Scrum Advice</span> */}
             {/* <Row ><button className="button-style" type="button">Scrum Guide</button></Row> */}

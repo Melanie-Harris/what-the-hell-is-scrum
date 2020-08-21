@@ -12,7 +12,7 @@ export default function Nav() {
   return (
     <div> 
 
-      <Link to="/"><div className="resource-headings ">Scrum</div></Link>
+      <Link to="/"><div className="resource-headings ">Scrum Enlightened</div></Link>
       <nav className="navbar navbar-expand-sm navbar-light  mb-4" style={{backgroundColor:"RGB(242, 242, 242)"}}>
         <div className="container">
           <button

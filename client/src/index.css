@@ -92,6 +92,15 @@ margin-top: 3rem;
   margin-top: 5rem;
   /* width: 10%; */
 }
+.auth-hero-text{
+  font-size: 4rem;
+}
+.auth-hero-subtext{
+  font-size: 3rem;
+}
+button .landing-hero-text{
+  font-size:1.6rem;
+}
 .hero-container{
   text-align: center;
   background-color: #f2f2f2;
@@ -99,7 +108,7 @@ margin-top: 3rem;
   padding-top: 2.5rem;
 }
 .hero-container-subtext{
-padding-top: 11rem;
+padding-top: 6rem;
 }
 .carousel-item img{
   height: 25rem;
@@ -115,7 +124,7 @@ padding-top: 11rem;
 
 .button-style{
   text-align: center;
-  width: 30% !important;
+  width: 30% ;
   padding: 3% 4%;
   font-size: .9rem;
   /* background-color: transparent; */
@@ -130,9 +139,9 @@ padding-top: 11rem;
   margin-top: -.8rem !important;
 }
 .right{
-  margin-left: 4.5%;
+  margin-left: 8.5%;
   /* text-align: center; */
-  width: 100%;
+  width: 90%;
 }
 .button-style:active {
   box-shadow: 0 .3rem #666;
@@ -253,6 +262,7 @@ padding-top: 11rem;
   text-align: center;
   padding-top: 4rem;
   color:#403d56;
+  padding-bottom: 3rem;
 }
 .section2{
   background-color:#f2f2f2 ;
@@ -262,8 +272,13 @@ padding-top: 11rem;
 }
 .section-text{
   color:#d6954b;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
+.section-sub-text{
+  /* color:#d6954b; */
+  font-size: 1.4rem;
+}
+
 .section-margin-top{
   margin-top: 8rem;
 }

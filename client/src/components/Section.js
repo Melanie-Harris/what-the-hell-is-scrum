@@ -12,19 +12,19 @@ export default function Section() {
         <Col className="section" sm={6}>
             <span className="section-text">Agile Development</span>
             <br/>
-            <span>Agile Development Explained</span>
+            <span className="section-sub-text">Agile Development Explained</span>
             <br/>
-            <span>Scrum Explained</span>
+            <span className="section-sub-text">Scrum Explained</span>
             <br/>
-            <span>Scrum Ceremonies</span>
+            <spa className="section-sub-text"n>Scrum Ceremonies</spa>
             <br/>
-            <span>Scrum Lifecycle</span>
+            <span className="section-sub-text">Scrum Lifecycle</span>
             <br/>
-            <span>Scrum Artifacts</span>
+            <span className="section-sub-text">Scrum Artifacts</span>
             <br/>
-            <span>Scrum Advice</span>
+            <span className="section-sub-text">Scrum Advice</span>
             <br/>
-            <span>More</span>
+            <span className="section-sub-text">More</span>
         </Col>
       </Row>
     </section>

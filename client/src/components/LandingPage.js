@@ -10,6 +10,7 @@ export default function Landing() {
   return (
     <div className="">
       <Nav/>
+      <h1 style={{textAlign:"center"}}>Learning Scrum The Eay Way</h1>
       <Hero/>
       <Section/>
       <Section2/>

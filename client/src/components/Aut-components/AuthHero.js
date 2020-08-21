@@ -11,11 +11,11 @@ export default function AuthHero() {
       <div className="container-fluid hero-container">
         <Row>
           <Col sm={6} className="container-fluid hero-container-subtext">
-            <h1>
-              Welcome <br />
-              "user" <br/>
+            <span className="auth-hero-text">
+              Welcome to the course<br /></span>
+              <span className="auth-hero-subtext">"user"</span> <br/>
               {/* to your learning portal */}
-            </h1>
+            
             <h2>Let's dive in!</h2>
             <a href="#lessons">
               {" "}
