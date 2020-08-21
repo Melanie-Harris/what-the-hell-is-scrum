@@ -1,0 +1,506 @@
+/** NOTE: Relative to font-size of the root element: rem changes all font size relative to the set root html */
+/* Current html set to 16 px to convert px to rem divide px by 16 to get rem
+/* Example 24px = 1.5rem | 24/16=1.5 */
+/** ================================================================== */
+
+/* #d6954b */
+
+html {
+  font-size: 16px;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.scrum-font{
+  font-family: 'Luckiest Guy', cursive;
+  
+   /* font-family: 'Rock Salt', cursive; */
+    /* font-family: 'Sacramento', cursive; */ 
+    /* Use sacramento for my sig */
+  }
+
+/* button{
+  text-align: center;
+  width: 100%;
+  padding: 5% 0%;
+  margin-top: 2.4rem;
+  font-size: 1.5rem;
+} */
+.bold{
+  font-weight: 700;
+}
+.pt-3{
+margin-top: 3rem;
+}
+/*!====================================Manual Overrides  */
+.w-70{
+  width:70% !important;
+}
+/*====================================Nav  */
+
+  .notice{
+    background-color:white;
+    z-index: 9999999 !important;
+    padding-top: 1%;
+    padding-bottom: .5%;
+    position: fixed;
+    width: 100%;
+    /* text-align: center;
+    float: right; */
+    /* margin-top: 100px; */
+  }
+  .notice span{
+    text-align: center !important;
+    
+  }
+  .nav{
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 1rem;
+  }
+  .nav a{
+    background-color: #f2f2f2;
+    text-decoration: none;
+    color:black;
+    margin-right: 3%;
+    /* text-align: end !important; */
+  }
+  nav i{
+    text-decoration: none;
+    color: #d6954b;
+    font-size: 1.3rem;
+    padding-left:1rem;
+    padding-top: 1rem;
+  }
+
+  .icon-size{font-size: 1rem; margin-top: -.6rem; text-align: end;}
+
+/*=============================== Hero */
+.hero{
+  margin-top: 5rem;
+  /* width: 10%; */
+}
+.hero-container{
+  text-align: center;
+  background-color: #f2f2f2;
+  margin-top:-1.5rem;
+  padding-top: 2.5rem;
+}
+.hero-container-subtext{
+padding-top: 11rem;
+}
+.carousel-item img{
+  height: 25rem;
+  margin-top: 5rem;
+  width: 190%;
+}
+.carousel-caption{
+  color:black;
+}
+.carousel-control-prev-icon{
+  color:black;
+}
+
+.button-style{
+  text-align: center;
+  width: 30% !important;
+  padding: 3% 4%;
+  font-size: .9rem;
+  /* background-color: transparent; */
+  background-color: white !important;
+  border: .19rem solid #d6954b;
+  text-decoration: none !important;
+  border-radius: 1.5rem;
+  box-shadow: .625rem .625rem #888888;
+  /* box-shadow: .7rem .7rem #888888; */
+  color: rgb(12, 12, 12);
+  margin-bottom: 4rem;
+  margin-top: -.8rem !important;
+}
+.right{
+  margin-left: 4.5%;
+  /* text-align: center; */
+  width: 100%;
+}
+.button-style:active {
+  box-shadow: 0 .3rem #666;
+  transform: translateY(.2rem);
+}
+.button-style a{
+  background-color: transparent;
+  color: rgb(12, 12, 12);
+  padding:.55rem;
+  text-decoration: none !important; 
+}
+.button-style:hover,.button-style:visited,.button-style:link{
+  text-decoration: none !important;
+  color: black;
+  /* font-size: 15px; */
+}
+.hero-text{
+  font-size: 5.5rem;
+  /* font-size:580%; */
+  z-index: 99;
+  padding-top: -8px;
+  position: absolute;
+  margin-top: 3rem;
+  padding-left: 8%;
+  display: inline;
+  /* color:white */
+  /* text-align: center !important; */
+}
+.hero-sub-text{
+  position: absolute;
+  z-index: 99;
+  /* text-align: center; */
+  padding-left: 11.5%;
+  font-size: 2rem;
+  margin-top: 10.8rem;
+  
+}
+
+.hero-img{
+  height: 6rem;
+  padding-left: 5%;
+  /* color:white */
+}
+.chat-bubble {
+  margin: 4rem;
+  display: inline-block;
+  position: relative;
+	width: 30rem;
+	height: auto;
+  background-color: #fbcd59;
+  border: .25rem solid #d6954b;
+  border-radius: 1.2rem;
+}
+.chat-text{
+  padding: 1rem;
+	text-align: left;
+  line-height: 1.5rem;
+  /* text-align: center; */
+}
+.tri-right.left-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -1.6rem;
+	right: auto;
+  top: 5rem;
+	bottom: auto;
+  border: .8rem solid;
+  border-color: #fbcd59 #fbcd59 transparent transparent;
+  
+}
+/*================================================Login/reg  */
+.button-style4{
+  text-align: center;
+  width: 20%;
+  padding: .5% .5%;
+  font-size: 1rem;
+  /* background-color: transparent; */
+  background-color: white !important;
+  border: .19rem solid #d6954b;
+  text-decoration: none !important;
+  border-radius: 1.5rem;
+  box-shadow: .625rem .625rem #888888;
+  /* box-shadow: .7rem .7rem #888888; */
+  color: rgb(12, 12, 12);
+  margin-bottom: .2rem;
+  margin-top: 1rem;
+}
+.right{
+  /* margin-left: 4.5%; */
+  /* text-align: center; */
+  /* width: 100%; */
+}
+.button-style4:active {
+  box-shadow: 0 .3rem #666;
+  transform: translateY(.2rem);
+}
+.button-style4 a{
+  background-color: transparent;
+  color: rgb(12, 12, 12);
+  padding:.55rem;
+  text-decoration: none !important; 
+}
+.button-style4:hover,.button-style4:visited,.button-style4:link{
+  text-decoration: none !important;
+  color: black;
+  /* font-size: 15px; */
+}
+/*=============================== section */
+
+.section-container{
+  width:100%;
+  /* margin-top: 3rem; */
+}
+.section{
+  background-color:#f2f2f2 ;
+  text-align: center;
+  padding-top: 4rem;
+  color:#403d56;
+}
+.section2{
+  background-color:#f2f2f2 ;
+  text-align: center;
+  padding-top: 7rem;
+  color:#403d56;
+}
+.section-text{
+  color:#d6954b;
+  font-size: 2.5rem;
+}
+.section-margin-top{
+  margin-top: 8rem;
+}
+.section-margin-bottom{
+  margin-bottom: 8rem;
+}
+.section-img{
+  margin-left:13% !important; 
+  padding: 2rem 0rem;
+}
+/*=============================== Lesson Plan section */
+.a-section-main{
+text-align: center;
+}
+.avatar-box0{
+  border: 2px solid grey;
+   cursor: help;
+   text-align:center;
+   padding:1.5rem 8.5% ;
+   
+ }
+.avatar-box{
+ border: 2px solid grey;
+  cursor: help;
+  text-align:center;
+  padding:1.5rem 6% ;
+}
+/* .avatar-box b{
+ 
+   text-align:center;
+   padding:0rem 21% 0rem;
+ } */
+.avatar-box2{
+  border: 2px solid grey;
+   cursor: help;
+   text-align:center;
+   padding:1.5rem 25.5%;
+ }
+ .avatar-bio-text{
+   /* margin-top: 4rem; */
+ }
+ .button-style2{
+  text-align: center;
+  width: 110%;
+  padding: 3% 4%;
+  font-size: .9rem;
+  background-color: transparent;
+  border: .19rem solid #d6954b;
+  text-decoration: none !important;
+  border-radius: 1.5rem;
+  box-shadow: .625rem .625rem #888888;
+  /* box-shadow: .7rem .7rem #888888; */
+  color: rgb(12, 12, 12);
+}
+
+.button-style2:active {
+  box-shadow: 0 .3rem #666;
+  transform: translateY(.2rem);
+}
+.button-style2 a{
+  background-color: transparent;
+  color: rgb(12, 12, 12);
+  padding:.55rem;
+  text-decoration: none !important; 
+}
+.button-style2:hover,.button-style2:visited,.button-style2:link{
+  text-decoration: none !important;
+  color: black;
+  /* font-size: 15px; */
+}
+/*=============================== summary section */
+.summary-container{
+  /* border:.1rem solid pink; */
+   padding:4rem 0rem; 
+   text-align:center;
+   background-color: #f6f5f3;
+   max-width: 99%;
+   /* border-radius: 6%; */
+}
+.summary-col{
+  margin-top: 2.5rem;
+ 
+}
+.summary-col i{
+  /* margin-top: 2.5rem; */
+  font-size: 3.6rem;
+  color: #d6954b;
+  padding-bottom: 1rem;
+}
+.summary-sub-text{
+  font-size: 1.5rem;
+}
+/* img .icon-attributes{
+  color: red;
+} */
+/*=============================== AuthHero section */
+.resource-section{
+ margin-top: -4rem;
+ width: 88%;
+}
+.resource-content{
+/* margin-top:3rem; */
+/* border: 1px solid red */
+}
+.text-margin{
+  margin-top: 15rem;
+  /* padding-top: -3rem; */
+}
+.resource-headings{
+  font-size: 3rem;
+  /* background-color: #1b2e46; */
+  background-color: black;
+  width: 100%;
+  color:white;
+  text-align: center;
+}
+.avatar-resource{
+  text-align: center;
+}
+
+.button-style3{
+  text-align: center;
+  width: 100%;
+  padding: 5% 0%;
+  margin-top: 2.4rem;
+  font-size: 1.5rem;
+
+  background-color: white;
+  border: .19rem solid #d6954b;
+  text-decoration: none !important;
+  border-radius: 1.5rem;
+  box-shadow: .625rem .625rem #888888;
+  /* box-shadow: .7rem .7rem #888888; */
+  color: rgb(12, 12, 12);
+}
+
+.button-style3:active {
+  box-shadow: 0 .3rem #666;
+  transform: translateY(.2rem);
+}
+.button-style3 a{
+  background-color: transparent;
+  color: rgb(12, 12, 12);
+  padding:.55rem;
+  text-decoration: none !important; 
+}
+.button-style3:hover,.button-style3:visited,.button-style3:link{
+  text-decoration: none !important;
+  color: black;
+  /* font-size: 15px; */
+}
+
+/* =================================== Resources*/
+.resources-container{
+  text-align: center;
+}
+/* =================================== Footer*/
+
+.footer{
+  /* background-color: rgb(232, 232, 232); */
+  background-color:black;
+  color:rgb(232, 232, 232);
+  text-align: center;
+  padding:2rem;
+}
+.footer-subtext{
+/* font-weight: 30rem; */
+font-size: 1.3rem;
+color: #d6954b;
+}
+footer i {
+  color: #d6954b;
+  font-size: 1.6rem;
+  padding: .3rem;
+}
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* .slider-img1{
+  height: 100%;
+}
+.slider-img2{
+  width: 50rem !important;
+}
+.slider-img3{
+  height: 100%;
+} */
+/* .carousel-control-next-icon{
+  display: none;
+} */
+
+/* .animate__rubberBand{
+  animation: rubberBand; 
+  referring directly to the animation's @keyframe declaration
+  animation-duration: 2.5s; 
+  don't forget to set a duration!
+} */
+/* .header{
+  text-align: center;
+  justify-content: center;
+  padding: 2rem 0rem;
+  background-color: rgb(232, 232, 232);
+  background-color: #aee9ff;
+} */
+/* #myTopnav{
+  position: fixed;
+  width:100%;
+  z-index:999;
+  } */
+  /* Add a black background color to the top navigation */
+  /* .topnav {
+    background-color: rgb(218, 218, 218);
+    background-color: black;
+    overflow: hidden;
+    margin-top: -1.5rem;
+   
+    position: absolute;
+  } */
+  
+  /* Style the links inside the navigation bar */
+  /* .topnav a {
+    float: center;
+    display: block;
+    color: #f2f2f2;
+   color:black;
+    text-align: center;
+    padding: 19px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right:20px;
+    margin-top: 200px;
+    position: absolute;
+    z-index: 99;
+  } */
